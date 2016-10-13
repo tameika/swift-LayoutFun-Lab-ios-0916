@@ -38,24 +38,24 @@ extension ViewController {
         redView.topAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
         redView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         
-        orangeView.widthAnchor.constraint(equalTo: redView.widthAnchor, multiplier: 0.80).isActive = true
-        orangeView.heightAnchor.constraint(equalTo: redView.heightAnchor, multiplier: 0.80).isActive = true
+        orangeView.widthAnchor.constraint(equalTo: redView.widthAnchor, multiplier: 0.75).isActive = true
+        orangeView.heightAnchor.constraint(equalTo: redView.heightAnchor, multiplier: 0.75).isActive = true
         orangeView.bottomAnchor.constraint(equalTo: redView.topAnchor).isActive = true
         orangeView.centerXAnchor.constraint(equalTo: redView.centerXAnchor).isActive = true
         
         
-        yellowView.widthAnchor.constraint(equalTo: orangeView.widthAnchor, multiplier: 0.80).isActive = true
-        yellowView.heightAnchor.constraint(equalTo: orangeView.heightAnchor, multiplier: 0.80).isActive = true
+        yellowView.widthAnchor.constraint(equalTo: orangeView.widthAnchor, multiplier: 0.75).isActive = true
+        yellowView.heightAnchor.constraint(equalTo: orangeView.heightAnchor, multiplier: 0.75).isActive = true
         yellowView.bottomAnchor.constraint(equalTo: orangeView.topAnchor).isActive = true
         yellowView.centerXAnchor.constraint(equalTo: orangeView.centerXAnchor).isActive = true
         
-        greenView.widthAnchor.constraint(equalTo: yellowView.widthAnchor, multiplier: 0.80).isActive = true
-        greenView.heightAnchor.constraint(equalTo: yellowView.heightAnchor, multiplier: 0.80).isActive = true
+        greenView.widthAnchor.constraint(equalTo: yellowView.widthAnchor, multiplier: 0.75).isActive = true
+        greenView.heightAnchor.constraint(equalTo: yellowView.heightAnchor, multiplier: 0.75).isActive = true
         greenView.bottomAnchor.constraint(equalTo: yellowView.topAnchor).isActive = true
         greenView.centerXAnchor.constraint(equalTo: yellowView.centerXAnchor).isActive = true
         
-        blueView.widthAnchor.constraint(equalTo: greenView.widthAnchor, multiplier: 0.80).isActive = true
-        blueView.heightAnchor.constraint(equalTo: greenView.heightAnchor, multiplier: 0.80).isActive = true
+        blueView.widthAnchor.constraint(equalTo: greenView.widthAnchor, multiplier: 0.75).isActive = true
+        blueView.heightAnchor.constraint(equalTo: greenView.heightAnchor, multiplier: 0.75).isActive = true
         blueView.bottomAnchor.constraint(equalTo: greenView.topAnchor).isActive = true
         blueView.centerXAnchor.constraint(equalTo: greenView.centerXAnchor).isActive = true
         
